@@ -6,7 +6,7 @@
 :root {
 	--color: #0984e3;
 }
-nav {
+div {
 	width: 100%;
 	padding: 20px 60px;
 	display: flex;
@@ -68,28 +68,9 @@ nav {
     background-color: #000;
 }
 
-/* main */
 
-main {
-	background-color: #eee;
-	width: 80%;
-	margin: 50px auto 0;
-	padding: 40px 20px;
-	border: 2px solid var(--color);
-	box-shadow: 0px 4px 8px var(--color), 0px 10px 20px var(--color);
-}
 
-main h1 {
-	font-size: 26px;
-	color: var(--color);
-	margin-bottom: 10px;
-}
 
-main p {
-	font-size: 16px;
-	line-height: 1.5;
-	margin-bottom: 10px;
-}
 button {
 	padding: 10px 20px;
 	font-size: 18px;
